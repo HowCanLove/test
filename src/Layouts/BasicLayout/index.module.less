@@ -1,0 +1,51 @@
+// :global(.ant-layout-content.ant-pro-basicLayout-content){
+//   margin-bottom: 0;
+// }
+.pageContainer {
+  :global {
+    .ant-page-header.has-breadcrumb {
+      padding: 0;
+      padding-left: 24px;
+
+      .ant-page-header-heading-title {
+        font-size: 16px;
+        margin: 4px 0;
+      }
+    }
+  }
+
+  :global(.ant-page-header-footer) {
+    margin-top: 0;
+  }
+
+  :global(.ant-pro-page-container-children-content) {
+    margin: 0;
+  }
+}
+
+.layout_bread {
+  padding-top: 8px;
+}
+
+.downList {
+  background: #FFFFFF;
+  padding: 10px;
+  border-radius: 4px;
+
+  .downListItem {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .downListLink {
+    color: #333333;
+  }
+}
+
+.layout_footer {
+  :global {
+    .ant-pro-global-footer {
+      margin: 24px 0 !important;
+    }
+  }
+}

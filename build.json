@@ -1,0 +1,12 @@
+{
+  "vite": false,
+  "plugins": [
+    [
+      "build-plugin-ignore-style",
+      {
+        "libraryName": "antd"
+      }
+    ],
+    ["api-context", { "host": "aa", "project": "b", "logstore": "c" }]
+  ]
+}
